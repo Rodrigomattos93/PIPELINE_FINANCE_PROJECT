@@ -1,11 +1,11 @@
-from sqlalchemy import Column, DateTime, Integer, Numeric
+from sqlalchemy import Column, Integer, Numeric, String
 
 from db.db import Base
 
 
-class IPCA_Model(Base):
-    __tablename__ = "ipca"
+class Unemployment_Model(Base):
+    __tablename__ = "unemployment"
 
     id = Column(Integer, primary_key=True)
-    date = Column(DateTime)
-    ipca_value = Column(Numeric)
+    quarter_year = Column(String)
+    unemployment_value = Column(Numeric)
