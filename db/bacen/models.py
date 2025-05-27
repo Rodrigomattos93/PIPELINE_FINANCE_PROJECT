@@ -1,6 +1,6 @@
 from sqlalchemy import Column, DateTime, Integer, Numeric
 
-from extract.db import Base
+from db.db import Base
 
 
 class IPCA_Model(Base):
