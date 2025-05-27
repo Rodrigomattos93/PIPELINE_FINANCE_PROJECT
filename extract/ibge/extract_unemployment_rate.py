@@ -7,7 +7,7 @@ from db.ibge.crud import insert_unployment_rate_in_postgres
 
 # The API takes a parameter in the format YYYYTQ, where Y is the year and Q is the quarter
 
-START_YEAR = 2025
+START_YEAR = 2020
 current_year = datetime.now().year
 current_quarter = ((datetime.now().month - 1) // 3) + 1
 current_year_quarter = (current_year * 100) + current_quarter

@@ -6,7 +6,7 @@ from db.bacen.crud import insert_ipca_rate_in_postgres
 from db.db import SessionLocal
 
 series_code = 433
-start_date = "01/01/2024"
+start_date = "01/01/2020"
 end_date = datetime.today().strftime("%d/%m/%Y")
 url = f"https://api.bcb.gov.br/dados/serie/bcdata.sgs.{series_code}/dados?formato=json&dataInicial={start_date}&dataFinal={end_date}"
 
@@ -21,5 +21,6 @@ except requests.RequestException as e:
 if ipca_list:
     db = SessionLocal()
     insert_ipca_rate_in_postgres(db, ipca_list)
+    db.commit()
 else:
     print("No data to insert.")

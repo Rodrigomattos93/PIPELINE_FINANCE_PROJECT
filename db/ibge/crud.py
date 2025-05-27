@@ -22,5 +22,3 @@ def insert_unployment_rate_in_postgres(
     if value and not existing_record:
         new_record = Unemployment_Model(quarter_year=period, unemployment_value=value)
         db.add(new_record)
-
-    db.commit()
