@@ -35,5 +35,6 @@ for period in period_requests_list:
     if data_list:
         db = SessionLocal()
         insert_unployment_rate_in_postgres(db, data_list, period)
+        db.commit()
     else:
         print("No data to insert.")

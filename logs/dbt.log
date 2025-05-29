@@ -1,0 +1,242 @@
+[0m21:01:05.818014 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CC9CB64710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CC99833EC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CC9EDD8440>]}
+
+
+============================== 21:01:06.036764 | 35961883-d5cc-4cfd-8c5f-f87a5dd11dea ==============================
+[0m21:01:06.036764 [info ] [MainThread]: Running with dbt=1.9.5
+[0m21:01:06.036764 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Rodrigo\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:01:26.731584 [debug] [MainThread]: Starter project path: C:\Users\Rodrigo\Documents\projeto_weather\.venv\Lib\site-packages\dbt\include\starter_project
+[0m21:01:26.786284 [info ] [MainThread]: 
+Your new dbt project "pipeline_project_2" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:01:26.791284 [info ] [MainThread]: Setting up your profile.
+[0m21:05:20.665767 [info ] [MainThread]: Profile pipeline_project_2 written to C:\Users\Rodrigo\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:05:20.671388 [debug] [MainThread]: Command `dbt init` succeeded at 21:05:20.671388 after 255.20 seconds
+[0m21:05:20.682810 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CCA0F72870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CC9F57AFF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CCA08FD6A0>]}
+[0m21:05:20.685106 [debug] [MainThread]: Flushing usage events
+[0m21:05:21.479939 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:05:39.458098 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021196F6DAC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211998CE7E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211996202F0>]}
+
+
+============================== 21:05:39.458098 | 03982c00-379a-47a7-9b4e-061df6d41dca ==============================
+[0m21:05:39.458098 [info ] [MainThread]: Running with dbt=1.9.5
+[0m21:05:39.458098 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Rodrigo\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m21:05:39.593736 [info ] [MainThread]: dbt version: 1.9.5
+[0m21:05:39.593736 [info ] [MainThread]: python version: 3.12.1
+[0m21:05:39.593736 [info ] [MainThread]: python path: C:\Users\Rodrigo\Documents\projeto_weather\.venv\Scripts\python.exe
+[0m21:05:39.593736 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m21:05:39.728670 [info ] [MainThread]: Using profiles dir at C:\Users\Rodrigo\.dbt
+[0m21:05:39.728670 [info ] [MainThread]: Using profiles.yml file at C:\Users\Rodrigo\.dbt\profiles.yml
+[0m21:05:39.728670 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Rodrigo\Documents\projeto_weather\dbt_project.yml
+[0m21:05:39.728670 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m21:05:39.736413 [debug] [MainThread]: Command `dbt debug` failed at 21:05:39.736413 after 0.47 seconds
+[0m21:05:39.738588 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211997DA8A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021199F73BC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002119AFBD1C0>]}
+[0m21:05:39.740586 [debug] [MainThread]: Flushing usage events
+[0m21:05:40.459705 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:06:08.766658 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002614016C770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002613D30D550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026140A00380>]}
+
+
+============================== 21:06:08.782322 | 4395919b-a514-484c-865c-8c958e965319 ==============================
+[0m21:06:08.782322 [info ] [MainThread]: Running with dbt=1.9.5
+[0m21:06:08.782322 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Rodrigo\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:06:08.846065 [info ] [MainThread]: dbt version: 1.9.5
+[0m21:06:08.849108 [info ] [MainThread]: python version: 3.12.1
+[0m21:06:08.851117 [info ] [MainThread]: python path: C:\Users\Rodrigo\Documents\projeto_weather\.venv\Scripts\python.exe
+[0m21:06:08.853107 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m21:06:08.980042 [info ] [MainThread]: Using profiles dir at C:\Users\Rodrigo\.dbt
+[0m21:06:08.980042 [info ] [MainThread]: Using profiles.yml file at C:\Users\Rodrigo\.dbt\profiles.yml
+[0m21:06:08.980042 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Rodrigo\Documents\projeto_weather\dbt_project.yml
+[0m21:06:08.980042 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m21:06:08.997482 [debug] [MainThread]: Command `dbt debug` failed at 21:06:08.997482 after 0.40 seconds
+[0m21:06:08.999483 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002613FD61CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002614016C770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026141E43320>]}
+[0m21:06:09.000481 [debug] [MainThread]: Flushing usage events
+[0m21:06:09.766861 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:06:34.719716 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDE2788B00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDE2050830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDE28413D0>]}
+
+
+============================== 21:06:34.735374 | 08cb7df1-9d34-48da-9504-121d833f3c77 ==============================
+[0m21:06:34.735374 [info ] [MainThread]: Running with dbt=1.9.5
+[0m21:06:34.735374 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Rodrigo\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m21:06:34.805802 [info ] [MainThread]: dbt version: 1.9.5
+[0m21:06:34.807804 [info ] [MainThread]: python version: 3.12.1
+[0m21:06:34.809802 [info ] [MainThread]: python path: C:\Users\Rodrigo\Documents\projeto_weather\.venv\Scripts\python.exe
+[0m21:06:34.812802 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m21:06:34.938720 [info ] [MainThread]: Using profiles dir at C:\Users\Rodrigo\.dbt
+[0m21:06:34.938720 [info ] [MainThread]: Using profiles.yml file at C:\Users\Rodrigo\.dbt\profiles.yml
+[0m21:06:34.938720 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Rodrigo\Documents\projeto_weather\dbt_project.yml
+[0m21:06:34.938720 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m21:06:34.957468 [debug] [MainThread]: Command `dbt debug` failed at 21:06:34.957468 after 0.41 seconds
+[0m21:06:34.959471 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDDFF3E900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDE4048680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDE404BBC0>]}
+[0m21:06:34.960469 [debug] [MainThread]: Flushing usage events
+[0m21:06:35.677098 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:10:38.645290 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011B99251D60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011B9B8D3A40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011B9BC57080>]}
+
+
+============================== 21:10:38.662102 | a5f2d465-b856-41ad-b1a9-15b17ded7d9d ==============================
+[0m21:10:38.662102 [info ] [MainThread]: Running with dbt=1.9.5
+[0m21:10:38.662102 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Rodrigo\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m21:10:38.744721 [info ] [MainThread]: dbt version: 1.9.5
+[0m21:10:38.744721 [info ] [MainThread]: python version: 3.12.1
+[0m21:10:38.744721 [info ] [MainThread]: python path: C:\Users\Rodrigo\Documents\projeto_weather\.venv\Scripts\python.exe
+[0m21:10:38.744721 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m21:10:38.895969 [info ] [MainThread]: Using profiles dir at C:\Users\Rodrigo\.dbt
+[0m21:10:38.911930 [info ] [MainThread]: Using profiles.yml file at C:\Users\Rodrigo\.dbt\profiles.yml
+[0m21:10:38.913936 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Rodrigo\Documents\projeto_weather\dbt_project.yml
+[0m21:10:38.915933 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m21:10:38.919931 [debug] [MainThread]: Command `dbt debug` failed at 21:10:38.918935 after 0.47 seconds
+[0m21:10:38.920930 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011B9C2110A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011B99251D60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011B9C236330>]}
+[0m21:10:38.921931 [debug] [MainThread]: Flushing usage events
+[0m21:10:39.749733 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:14:42.148488 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000195A71EDAC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000195A9630830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000195A9D79670>]}
+
+
+============================== 21:14:42.164113 | ac302131-908f-4c8c-8cb7-d5c200a22d3b ==============================
+[0m21:14:42.164113 [info ] [MainThread]: Running with dbt=1.9.5
+[0m21:14:42.164113 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Rodrigo\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m21:14:42.246951 [info ] [MainThread]: dbt version: 1.9.5
+[0m21:14:42.248950 [info ] [MainThread]: python version: 3.12.1
+[0m21:14:42.251951 [info ] [MainThread]: python path: C:\Users\Rodrigo\Documents\projeto_weather\.venv\Scripts\python.exe
+[0m21:14:42.257622 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m21:14:42.430190 [info ] [MainThread]: Using profiles dir at C:\Users\Rodrigo\.dbt
+[0m21:14:42.431192 [info ] [MainThread]: Using profiles.yml file at C:\Users\Rodrigo\.dbt\profiles.yml
+[0m21:14:42.433192 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Rodrigo\Documents\projeto_weather\dbt_project.yml
+[0m21:14:42.435191 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m21:14:42.438192 [debug] [MainThread]: Command `dbt debug` failed at 21:14:42.438192 after 0.51 seconds
+[0m21:14:42.439188 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000195A9F70590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000195AB1FBD10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000195AB271250>]}
+[0m21:14:42.443450 [debug] [MainThread]: Flushing usage events
+[0m21:14:43.130868 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:16:11.149104 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000263C23AF3E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000263C2662F00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000263C1C44230>]}
+
+
+============================== 21:16:11.149104 | b1a64c81-710e-49d6-818a-0854218ff4f3 ==============================
+[0m21:16:11.149104 [info ] [MainThread]: Running with dbt=1.9.5
+[0m21:16:11.149104 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:UsersRodrigo.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug --profiles-dir C:UsersRodrigo.dbt', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:16:11.216002 [info ] [MainThread]: dbt version: 1.9.5
+[0m21:16:11.216002 [info ] [MainThread]: python version: 3.12.1
+[0m21:16:11.216002 [info ] [MainThread]: python path: C:\Users\Rodrigo\Documents\projeto_weather\.venv\Scripts\python.exe
+[0m21:16:11.235784 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m21:16:11.240783 [info ] [MainThread]: Using profiles dir at C:UsersRodrigo.dbt
+[0m21:16:11.244780 [info ] [MainThread]: Using profiles.yml file at C:UsersRodrigo.dbt\profiles.yml
+[0m21:16:11.257622 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Rodrigo\Documents\projeto_weather\dbt_project.yml
+[0m21:16:11.264204 [info ] [MainThread]: Configuration:
+[0m21:16:11.267990 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m21:16:11.269990 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:16:11.271988 [info ] [MainThread]: Required dependencies:
+[0m21:16:11.273992 [debug] [MainThread]: Executing "git --help"
+[0m21:16:11.333441 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:16:11.334417 [debug] [MainThread]: STDERR: "b''"
+[0m21:16:11.335417 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:16:11.336417 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m21:16:11.338422 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m21:16:11.339418 [info ] [MainThread]: dbt looked for a profiles.yml file in C:UsersRodrigo.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m21:16:11.342420 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Rodrigo\Documents\projeto_weather\dbt_project.yml> not found
+
+[0m21:16:11.345420 [debug] [MainThread]: Command `dbt debug` failed at 21:16:11.344418 after 0.38 seconds
+[0m21:16:11.346422 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000263BCB90C80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000263C2B7D040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000263C23AF3E0>]}
+[0m21:16:11.347416 [debug] [MainThread]: Flushing usage events
+[0m21:16:12.120148 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:16:41.189001 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B8E40F470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B8EC787A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B8C2580B0>]}
+
+
+============================== 21:16:41.204628 | 62784479-2bc5-451c-9f53-cd97b7d2837f ==============================
+[0m21:16:41.204628 [info ] [MainThread]: Running with dbt=1.9.5
+[0m21:16:41.204628 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Rodrigo\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt debug --profiles-dir C:\\Users\\Rodrigo\\.dbt', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:16:41.267839 [info ] [MainThread]: dbt version: 1.9.5
+[0m21:16:41.269833 [info ] [MainThread]: python version: 3.12.1
+[0m21:16:41.271835 [info ] [MainThread]: python path: C:\Users\Rodrigo\Documents\projeto_weather\.venv\Scripts\python.exe
+[0m21:16:41.273832 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m21:16:41.412584 [info ] [MainThread]: Using profiles dir at C:\Users\Rodrigo\.dbt
+[0m21:16:41.412584 [info ] [MainThread]: Using profiles.yml file at C:\Users\Rodrigo\.dbt\profiles.yml
+[0m21:16:41.412584 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Rodrigo\Documents\projeto_weather\dbt_project.yml
+[0m21:16:41.412584 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m21:16:41.425917 [debug] [MainThread]: Command `dbt debug` failed at 21:16:41.424916 after 0.41 seconds
+[0m21:16:41.427501 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B8EC1B5C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B8E9D6120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B8EFA0650>]}
+[0m21:16:41.429501 [debug] [MainThread]: Flushing usage events
+[0m21:16:42.118550 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:17:36.596239 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014C53417800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014C53FE9D30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014C536F20C0>]}
+
+
+============================== 21:17:36.596239 | 652a731d-fb3b-4236-b170-55e2544efe43 ==============================
+[0m21:17:36.596239 [info ] [MainThread]: Running with dbt=1.9.5
+[0m21:17:36.611865 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Rodrigo\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m21:17:36.677080 [info ] [MainThread]: dbt version: 1.9.5
+[0m21:17:36.679848 [info ] [MainThread]: python version: 3.12.1
+[0m21:17:36.681851 [info ] [MainThread]: python path: C:\Users\Rodrigo\Documents\projeto_weather\.venv\Scripts\python.exe
+[0m21:17:36.683848 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m21:17:36.810808 [info ] [MainThread]: Using profiles dir at C:\Users\Rodrigo\.dbt
+[0m21:17:36.810808 [info ] [MainThread]: Using profiles.yml file at C:\Users\Rodrigo\.dbt\profiles.yml
+[0m21:17:36.826431 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Rodrigo\Documents\projeto_weather\dbt_project.yml
+[0m21:17:36.826431 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m21:17:36.826431 [debug] [MainThread]: Command `dbt debug` failed at 21:17:36.826431 after 0.43 seconds
+[0m21:17:36.834231 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014C53DF8380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014C536F20C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014C5434EE40>]}
+[0m21:17:36.836291 [debug] [MainThread]: Flushing usage events
+[0m21:17:37.586547 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:20:22.462038 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023CCB52FEF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023CCB52E3F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023CCBB85430>]}
+
+
+============================== 21:20:22.462038 | ec19aa98-66b6-48ab-bec4-a426149358eb ==============================
+[0m21:20:22.462038 [info ] [MainThread]: Running with dbt=1.9.5
+[0m21:20:22.462038 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Rodrigo\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:20:22.533252 [info ] [MainThread]: dbt version: 1.9.5
+[0m21:20:22.535259 [info ] [MainThread]: python version: 3.12.1
+[0m21:20:22.538254 [info ] [MainThread]: python path: C:\Users\Rodrigo\Documents\projeto_weather\.venv\Scripts\python.exe
+[0m21:20:22.542241 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m21:20:22.671205 [info ] [MainThread]: Using profiles dir at C:\Users\Rodrigo\.dbt
+[0m21:20:22.671205 [info ] [MainThread]: Using profiles.yml file at C:\Users\Rodrigo\.dbt\profiles.yml
+[0m21:20:22.671205 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Rodrigo\Documents\projeto_weather\dbt_project.yml
+[0m21:20:22.671205 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m21:20:22.687943 [debug] [MainThread]: Command `dbt debug` failed at 21:20:22.687943 after 0.50 seconds
+[0m21:20:22.689610 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023CCB8B15E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023CCC18F470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023CCC057140>]}
+[0m21:20:22.691610 [debug] [MainThread]: Flushing usage events
+[0m21:20:23.432463 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:53:54.695515 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012F274EDBE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012F27A1B9E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012F27A1BF20>]}
+
+
+============================== 23:53:54.695515 | 99e9567b-3ca1-4db4-b037-ab0ccd0f7fa0 ==============================
+[0m23:53:54.695515 [info ] [MainThread]: Running with dbt=1.9.5
+[0m23:53:54.711138 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Rodrigo\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:53:54.711138 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Rodrigo\Documents\projeto_weather\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m23:53:54.716615 [debug] [MainThread]: Command `dbt run` failed at 23:53:54.716615 after 0.32 seconds
+[0m23:53:54.718619 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012F241A0BC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012F2A178EC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012F29B70530>]}
+[0m23:53:54.720613 [debug] [MainThread]: Flushing usage events
+[0m23:53:55.520807 [debug] [MainThread]: An error was encountered while trying to flush usage events

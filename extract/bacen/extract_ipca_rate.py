@@ -21,6 +21,5 @@ except requests.RequestException as e:
 if ipca_list:
     db = SessionLocal()
     insert_ipca_rate_in_postgres(db, ipca_list)
-    db.commit()
 else:
     print("No data to insert.")
