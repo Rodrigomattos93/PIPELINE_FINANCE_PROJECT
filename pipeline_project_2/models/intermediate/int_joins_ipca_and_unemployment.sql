@@ -16,7 +16,8 @@ joins_ipca_and_unemployment AS (
         u.id as unemployment_id,
         ipca_value,
         unemployment_value,
-        i.date
+        i.date,
+        quarter_year
     FROM source_ipca AS i
     JOIN source_unemployment AS u 
         ON i.date = u.date
