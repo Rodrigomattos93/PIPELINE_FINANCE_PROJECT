@@ -1,12 +1,12 @@
 pipeline_project_2:
   outputs:
     dev:
-      dbname: "{{ ENV_VAR ('DB_NAME_DEV') }}"
-      host: "{{ ENV_VAR ('DB_HOST_DEV') }}"
-      password: "{{ ENV_VAR ('DB_PASS_DEV') }}"
-      port: "{{ ENV_VAR ('DB_PORT_DEV') | int }}"
-      schema: "{{ ENV_VAR ('DB_SCHEMA_DEV') }}"
-      threads: "{{ ENV_VAR ('DB_THREADS_DEV') | int }}"
+      dbname: "{{ env_var ('DB_NAME_DEV') }}"
+      host: "{{ env_var ('DB_HOST_DEV') }}"
+      password: "{{ env_var ('DB_PASS_DEV') }}"
+      port: "{{ env_var ('DB_PORT_DEV') | int }}"
+      schema: "{{ env_var ('DB_SCHEMA_DEV') }}"
+      threads: "{{ env_var ('DB_THREADS_DEV') | int }}"
       type: postgres
-      user: "{{ ENV_VAR ('DB_USER_DEV') }}"
+      user: "{{ env_var ('DB_USER_DEV') }}"
   target: dev
