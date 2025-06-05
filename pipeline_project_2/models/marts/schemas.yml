@@ -2,8 +2,7 @@ version: 2
 
 models:
   - name: ipca_unemployments
-    description: "Este modelo processa os dados combinados de inflacao (IPCA) e desemprego para calcular
-      indicadores cumulativos e variacoes percentuais ao longo do tempo."
+    description: "Este modelo processa os dados combinados de inflacao (IPCA) e desemprego para calcular indicadores cumulativos e variacoes percentuais ao longo do tempo."
 
     columns:
       - name: quarter_year

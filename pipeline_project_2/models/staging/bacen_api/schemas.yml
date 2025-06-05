@@ -9,4 +9,4 @@ models:
       - name: ipca_value
         description: Valor da variacao mensal do indice IPCA na data correspondente
       - name: date
-        description: Data do registro do indice IPCA, convertida para o tipo date
+        description: Data do registro do indice IPCA, convertida para o tipo data
