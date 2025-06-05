@@ -1,0 +1,12 @@
+pipeline_project_2:
+  outputs:
+    dev:
+      dbname: "{{ ENV_VAR ('DB_NAME_DEV') }}"
+      host: "{{ ENV_VAR ('DB_HOST_DEV') }}"
+      password: "{{ ENV_VAR ('DB_PASS_DEV') }}"
+      port: "{{ ENV_VAR ('DB_PORT_DEV') | int }}"
+      schema: "{{ ENV_VAR ('DB_SCHEMA_DEV') }}"
+      threads: "{{ ENV_VAR ('DB_THREADS_DEV') | int }}"
+      type: postgres
+      user: "{{ ENV_VAR ('DB_USER_DEV') }}"
+  target: dev
