@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: ipca_unemployments
+    description: "Este modelo processa os dados combinados de inflacao (IPCA) e desemprego para calcular
+      indicadores cumulativos e variacoes percentuais ao longo do tempo."
+
+    columns:
+      - name: quarter_year
+        description: Codigo do ano e trimestre relacionado aos dados
+      - name: date
+        description: Data mensal para a qual os indicadores sao calculados
+      - name: ipca_value
+        description: Valor mensal do indice IPCA
+      - name: ipca_quarter_cumulative
+        description: Indice IPCA acumulado no trimestre ate a data atual
+      - name: ipca_cumulative
+        description: Indice IPCA acumulado ao longo de todo o periodo disponivel
+      - name: unemployment_value
+        description: Valor mensal da taxa de desemprego
+      - name: percent_change_unemployment
+        description: Variacao percentual mensal da taxa de desemprego em relacao ao mes anterior, com zeros convertidos para NULL

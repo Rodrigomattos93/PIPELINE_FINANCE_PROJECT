@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: stg_ibge__unemployments
+    description: Camada inicial com dados da fonte externa public.unemployment
+    columns:
+      - name: id
+        description: Identificador unico para cada registro de desemprego
+      - name: quarter_year
+        description: Codigo que indica o ano e trimestre (formato AAAATT ex 202101 para 1o trimestre de 2021)
+      - name: year
+        description: Ano extraido do campo quarter_year
+      - name: quarter
+        description: Trimestre extraido do campo quarter_year
+      - name: month_list
+        description: Lista dos meses correspondentes ao trimestre (ex [1,2,3] para o 1o trimestre)
+      - name: month
+        description: Mes individual desmembrado a partir da lista de meses do trimestre.
+      - name: date
+        description: Data criada com o primeiro dia do mes (ano, mes, dia = 1)
+      - name: unemployment_value
+        description: Valor da taxa de desemprego para o trimestre, replicado para cada mes
