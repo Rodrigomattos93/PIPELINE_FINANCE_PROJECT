@@ -2,7 +2,6 @@ import os
 from datetime import datetime
 
 from airflow.decorators import dag, task
-
 from extract.bacen.extract_ipca_rate import extract_inflation_from_bacen_api
 from extract.ibge.extract_unemployment_rate import \
     extract_unemployment_from_ibge_api
@@ -10,7 +9,7 @@ from extract.ibge.extract_unemployment_rate import \
 
 @dag(
     start_date=datetime(2025, 1, 1),
-    schedule_interval="*/1 * * * *",
+    schedule="*/1 * * * *",
     catchup=False,
     description="Pipeline that extracts inflation and unemployment data",
 )
