@@ -1,4 +1,14 @@
-# 📊 Data Pipeline Project with Airflow, dbt, Public APIs, and Power BI
+![Python](https://img.shields.io/badge/Python-3.12-blue?style=flat-square&logo=python&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/ORM-SQLAlchemy-red?style=flat-square)
+![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![AWS](https://img.shields.io/badge/Cloud-AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![dbt](https://img.shields.io/badge/transformations-dbt-green)
+![Airflow](https://img.shields.io/badge/orchestration-Airflow-orange)
+
+
+
+
+# Data Pipeline Project with Airflow, dbt, Public APIs, and Power BI
 
 This project automates the collection, transformation, and visualization of key economic indicators from Brazil, using a modern stack including Docker, Poetry, Airflow, dbt, and Power BI.
 
@@ -80,7 +90,7 @@ astro dev start
 For installation instructions on other operating systems, visit the official Astro CLI documentation:  
 [https://www.astronomer.io/docs/astro/cli/install-cli](https://www.astronomer.io/docs/astro/cli/install-cli)
 
-### Environment Variables
+### 4. Environment Variables
 
 The project uses `.env` files to manage secrets and configurations. Make sure to create the following:
 
@@ -116,23 +126,28 @@ DBT_PROFILES_DIR=../
 These files are not tracked by Git, so you must create them manually.
 
 
-### Automated Monthly Update
+### 5. Automated Monthly Update
 Airflow runs the DAG automatically on the 15th of every month
 
 Data is extracted from APIs, loaded into PostgreSQL, transformed with dbt, and visualized via Power BI
 
-### Code Conventions
+### 6. Code Conventions
 
 - Code formatted with black
 - Imports organized with isort
 - Automatic validation with pre-commit
 
-### Power BI
+### 7. Power BI
 Power BI consumes the final table created by dbt, ensuring transformations are audited and version-controlled.
+
 ![Dashboard Preview](https://github.com/Rodrigomattos93/PIPELINE_FINANCE_PROJECT/blob/main/images/PowerBI.png)
 
 
 
 ### Author
-Rodrigo Mattos
-rodrigo.mattos.rocha@poli.ufrj.br
+Rodrigo Rocha
+(rodrigo.mattos.rocha@poli.ufrj.br)
+
+[LinkedIn](https://www.linkedin.com/in/rodrigo-rocha-592910133/)
+
+
