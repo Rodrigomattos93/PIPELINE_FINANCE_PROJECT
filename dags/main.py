@@ -3,17 +3,17 @@ from datetime import datetime
 from airflow.decorators import dag, task
 from airflow.operators.bash import BashOperator
 
-from include.extract.bacen.extract_ipca_rate import \
-    extract_inflation_from_bacen_api
-from include.extract.ibge.extract_unemployment_rate import \
-    extract_unemployment_from_ibge_api
+from include.extract.bacen.extract_ipca_rate import extract_inflation_from_bacen_api
+from include.extract.ibge.extract_unemployment_rate import (
+    extract_unemployment_from_ibge_api,
+)
 
 DBT_PROJECT_DIR = "/usr/local/airflow/pipeline_project_2"
 
 
 @dag(
     start_date=datetime(2025, 1, 1),
-    schedule="0 0 1 * *",
+    schedule="0 0 15 * *",
     catchup=False,
     description="Pipeline that extracts inflation and unemployment data",
     is_paused_upon_creation=True,
