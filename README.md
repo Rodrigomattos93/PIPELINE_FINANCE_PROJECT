@@ -28,7 +28,9 @@ This project automates the collection, transformation, and visualization of key 
 
 - **Code quality**: `pre-commit`, `black`, `isort`
 
----
+## Project Architecture
+![Architecture](https://github.com/Rodrigomattos93/PIPELINE_FINANCE_PROJECT/blob/main/images/projeto2_draw.png)
+
 
 ## Directory Structure
 ```
