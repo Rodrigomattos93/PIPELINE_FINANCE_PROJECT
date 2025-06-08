@@ -13,7 +13,7 @@ DBT_PROJECT_DIR = "/usr/local/airflow/pipeline_project_2"
 
 @dag(
     start_date=datetime(2025, 1, 1),
-    schedule=None,
+    schedule="0 0 1 * *",
     catchup=False,
     description="Pipeline that extracts inflation and unemployment data",
     is_paused_upon_creation=True,
